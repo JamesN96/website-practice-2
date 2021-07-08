@@ -2,3 +2,45 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* universal */
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+nav {
+  background-color: #000000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  width: 25%;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+#header-div {
+  width: 100%;
+}
+
+#header-img {
+  background-size: cover;
+  border: 1px solid red;
+  background-position: center;
+  min-height: 75%;
+  height: 75%;
+  width: 100%;
+}

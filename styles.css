@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 /* universal */
@@ -14,6 +18,8 @@ body {
 
 nav {
   background-color: #000000;
+  text-align: center;
+  padding: 8px 16px;
 }
 
 ul {
@@ -22,25 +28,53 @@ ul {
 }
 
 ul li {
-  display: inline;
-  width: 25%;
+  display: inline-block;
+  width: 21%;
+  padding: 8px 16px;
+  text-transform: uppercase;
 }
 
 ul a {
   text-decoration: none;
   color: #fff;
-  padding: 8px 16px;
+  padding: 10px 150px;
+}
+
+ul li a:hover {
+  background-color: azure;
+  color: #000000;
 }
 
 #header-div {
-  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  min-height: 65%;
 }
 
-#header-img {
-  background-size: cover;
-  border: 1px solid red;
-  background-position: center;
-  min-height: 75%;
-  height: 75%;
-  width: 100%;
+h1 {
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.span-div {
+  display: inline-block;
+  padding: 12px 24px;
+}
+
+#span-left {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 8px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#right {
+  position: absolute;
+  right: 0;
+  color: #fff;
 }

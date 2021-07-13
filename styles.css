@@ -121,3 +121,16 @@ h1 {
   /* font-size: 18px; */
   margin: 18px auto;
 }
+
+/* The Menu */
+
+#the-menu h2 {
+  text-align: center;
+  margin: 48px auto;
+  background-color: #000000;
+  color: #fff;
+  width: 10%;
+  text-transform: uppercase;
+}
+
+/*  */

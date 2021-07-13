@@ -172,3 +172,11 @@ h1 {
   font-size: 18px;
   font-family: "Inconsolata", sans-serif;
 }
+
+/* Footer */
+
+#footer {
+  padding: 48px;
+  text-align: center;
+  background-color: #f1f1f1;
+}

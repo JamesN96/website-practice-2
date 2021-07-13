@@ -7,10 +7,13 @@ body {
   line-height: 1.5;
 }
 
+p {
+  font-size: 18px;
+}
 /* universal */
 
 .container {
-  width: 75%;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -133,4 +136,39 @@ h1 {
   text-transform: uppercase;
 }
 
-/*  */
+/* Where to find Us */
+
+#where h2 {
+  background-color: #000000;
+  margin: 48px auto;
+  width: 25%;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 15px;
+  letter-spacing: 4px;
+}
+
+#where img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+#where input {
+  display: block;
+  width: 100%;
+  padding: 24px 8px;
+  margin: 18px 0;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+}
+
+#where button {
+  background-color: #000000;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+}

@@ -169,10 +169,17 @@ h1 {
 }
 
 #the-menu #drink {
-  background-color: red;
-  position: fixed;
-  /* display: none; */
+  /* margin-top: -15px; */
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 .menu h5,
 .menu p {
   line-height: 1.5;

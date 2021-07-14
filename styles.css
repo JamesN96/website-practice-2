@@ -129,6 +129,10 @@ h1 {
 
 /* The Menu */
 
+#the-menu {
+  width: 700px;
+}
+
 #the-menu h2 {
   text-align: center;
   margin: 48px auto;
@@ -139,6 +143,51 @@ h1 {
   letter-spacing: 4px;
 }
 
+#menu-bar {
+  text-align: center;
+  padding: 8px 16px;
+  border: 1px solid red;
+}
+
+.menu-tabs {
+  width: 49%;
+  border: 1px solid red;
+  background-color: #616161;
+}
+
+.menu-tabs:first-child {
+  float: left;
+}
+
+.menu-tabs:last-child {
+  float: right;
+}
+
+.menu {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  padding: 48px 16px;
+}
+
+#the-menu #drink {
+  background-color: red;
+  position: fixed;
+  /* display: none; */
+}
+.menu h5,
+.menu p {
+  line-height: 1.5;
+}
+
+.menu h5 {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 400;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.menu p {
+  color: #757575;
+}
 /* Where to find Us */
 
 #where {

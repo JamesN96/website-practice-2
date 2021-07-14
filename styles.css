@@ -146,21 +146,29 @@ h1 {
 #menu-bar {
   text-align: center;
   padding: 8px 16px;
-  border: 1px solid red;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 
 .menu-tabs {
   width: 49%;
-  border: 1px solid red;
-  background-color: #616161;
 }
 
+.menu-tabs h3 {
+  margin: 0;
+}
 .menu-tabs:first-child {
-  float: left;
+  /* float: left; */
 }
 
 .menu-tabs:last-child {
-  float: right;
+  /* float: right; */
+  position: relative;
+  margin-left: 340px;
+  margin-top: -26px;
+}
+
+.current {
+  background-color: #616161;
 }
 
 .menu {
